@@ -1,11 +1,12 @@
-.nav {
-    justify-content: flex-start;
+.web {
+    font-weight: inherit;
+    color:blue
 }
-
-.main {
-    background-color: navy;
-    background-size: contain;
-    
+.studio {
+    color:navy
+}
+.address{
+    align-items: center;
 }
 
 .main-heading {
@@ -15,5 +16,6 @@
 }
 
 .head-button {
-    text-align: center;
+    align-items: center;
+    display: flex;
 }
