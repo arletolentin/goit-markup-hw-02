@@ -1,21 +1,37 @@
+.main {
+    width: 1440px;
+    height: 600px;
+    background-image: url(/images/hero-head.jpg);
+}
+.main-heading{
+color: var(--white, #FFF);
+text-align: center;
+font-family: Roboto;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 107.143% */
+letter-spacing: 1.12px;
+}
+.main-button {
+    display:inline-flex;
+    align-items: center;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    background: var(--iris, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
 .web {
-    font-weight: inherit;
-    color:blue
+    font-weight: 900;
+    color:blue;
 }
 .studio {
-    color:navy
+    font-weight: 900;
+    color:black;
 }
-.address{
-    align-items: center;
-}
-
-.main-heading {
-    text-align: center;
-    color: white;
-    font-family:sans-serif;
-}
-
-.head-button {
-    align-items: center;
+.nav {
     display: flex;
+    flex-direction: row;
 }
