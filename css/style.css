@@ -97,11 +97,45 @@
     flex-direction: column;
     align-items: center;
   }
-.port-img {
-  display: flex;
-  flex-direction: row;
-  gap: 32px;
-}
+  .port-img-rowone {
+    width: 1128px;
+    height: 420px;
+    top: 288px;
+    left: 156px;
+    border: 1px;
+    display: flex;
+    flex-direction: row;
+  }
+  .port-img-rowtwo {
+    width: 1128px;
+    height: 420px;
+    top: 756px;
+    left: 156px;
+    border: 1px;
+    display: flex;
+    flex-direction: row;
+  }
+  .port-img-rowthree {
+    width: 1128px;
+    height: 420px;
+    top: 1224px;
+    left: 156px;
+    border: 1px;
+    display: flex;
+    flex-direction: row;
+  }
+  .port-img-item {
+    display: flex;
+    width: 360px;
+    height: 420px;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex-shrink: 0;
+    border: 1px solid var(--cornflower, #E7E9FC);
+    background: var(--white, #FFF);
+  }
   .features {
     display: flex;
     justify-content: center;
@@ -119,7 +153,7 @@
     margin: 0;
     list-style: none;
   }
-  .feature-itemh3 {
+  .feature-item {
     color: var(--secondary-color);
     font-size: 20px;
     font-weight: 500;
@@ -165,7 +199,7 @@
     gap: 40px;
     padding: 40px 10%;
   }
-  .tean-title {
+  .team-title {
     color: var(--navyblue, #2E2F42);
     text-align: center;
     font-family: Roboto;
