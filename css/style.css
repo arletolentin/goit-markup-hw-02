@@ -171,16 +171,16 @@ button {
   align-items: center;
   padding-bottom: 32px;
 }
-.portfolio-button-item {
+.portfolio-button-list {
   display: inline-flex;
   align-items: flex-start;
   gap: 24px;
 }
-.portfolio-button-list:hover {
+.portfolio-button-item:hover {
   background: var(--ocean);
   color: var(--white)
 }
-.portfolio-button-list {
+.portfolio-button-item {
   display: flex;
   color: var(--iris);
   text-align: center;
